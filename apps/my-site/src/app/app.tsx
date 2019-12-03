@@ -3,6 +3,7 @@ import React from 'react';
 import './app.css';
 
 import { Route, Link } from 'react-router-dom';
+import { PageTitle } from '@monorepo/ui-header';
 
 export const App = () => {
   /*
@@ -18,6 +19,7 @@ export const App = () => {
           width="75"
           src="https://nx.dev/assets/images/nx-logo-white.svg"
         />
+        <PageTitle />
         <h1>Welcome to my-site!</h1>
       </header>
       <main>
